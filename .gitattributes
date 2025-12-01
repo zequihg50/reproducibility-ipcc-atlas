@@ -1,0 +1,4 @@
+pangeo-cmip6-aws-v20251218.csv.zip filter=lfs diff=lfs merge=lfs -text
+pangeo-cmip6-gcs-v20251218.csv.zip filter=lfs diff=lfs merge=lfs -text
+esgf-v20251204.json.zip filter=lfs diff=lfs merge=lfs -text
+esgf-files-v20251204.json.zip filter=lfs diff=lfs merge=lfs -text

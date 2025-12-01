@@ -7,6 +7,9 @@ Does the ESGF provides enough reproducibility capabilities?
 ## Usage
 
 ```bash
+# esgfva
 ./esgfva.awk gsat-esgf.csv 
+
+# atlas
 ./atlas.awk CMIP6_day.csv
 ```
