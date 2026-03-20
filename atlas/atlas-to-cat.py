@@ -65,6 +65,6 @@ for _, row in df.iterrows():
 
 out_df = pd.DataFrame({"esgf_id": ids})
 out_path = "esgf_ids_full.csv"
-out_df.to_csv(out_path, index=False)
+out_df.to_csv(out_path, index=False, header=False)
 
 out_path
