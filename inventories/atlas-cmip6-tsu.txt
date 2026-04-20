@@ -171,7 +171,8 @@ CMIP6.ScenarioMIP.CAS.FGOALS-g3.ssp126.r1i1p1f1.Omon.tos.gn.v20191229
 CMIP6.ScenarioMIP.CAS.FGOALS-g3.ssp126.r1i1p1f1.day.pr.gn.v20200927
 CMIP6.ScenarioMIP.CAS.FGOALS-g3.ssp126.r1i1p1f1.day.tas.gn.v20200928
 CMIP6.ScenarioMIP.CAS.FGOALS-g3.ssp245.r1i1p1f1.day.pr.gn.v20190818
-CMIP6.ScenarioMIP.CAS.FGOALS-g3.ssp245.r1i1p1f1.day.tas.gn.20190818-20190819
+CMIP6.ScenarioMIP.CAS.FGOALS-g3.ssp245.r1i1p1f1.day.tas.gn.v20190818
+CMIP6.ScenarioMIP.CAS.FGOALS-g3.ssp245.r1i1p1f1.day.tas.gn.v20190819
 CMIP6.ScenarioMIP.CAS.FGOALS-g3.ssp585.r1i1p1f1.Omon.tos.gn.v20191229
 CMIP6.ScenarioMIP.CAS.FGOALS-g3.ssp585.r1i1p1f1.day.pr.gn.v20190818
 CMIP6.ScenarioMIP.CAS.FGOALS-g3.ssp585.r1i1p1f1.day.tas.gn.v20190819
