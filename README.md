@@ -2,6 +2,17 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zequihg50/reproducibility-ipcc-atlas/HEAD?urlpath=%2Fdoc%2Ftree%2Fmain.ipynb)
 
+## Loading datasets
+
+```python
+import pandas as pd
+import xarray as xr
+
+df = pd.read_csv("data_inventory.csv.zip")
+subset = df[df["opendap"].str.contains("v20190710/tas_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_")]["opendap"].sort_values()
+ds = xr.open_mfdataset(list(subset), data_vars=["tas"], compat="no_conflicts")
+```
+
 ## Notes
 
 Obatining WDC ESGF dataset identifiers:
